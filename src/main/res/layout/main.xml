@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<TableRow
+			android:minHeight="90px"
+		></TableRow>
+		<TableRow
+			android:minHeight="160px"
+			android:gravity="center_horizontal"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:text="@string/hello_world"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="#FFF195"
+				android:textStyle="bold"
+				android:textSize="40px"
+			/>
+		</TableRow>
+		<TableRow
+			android:gravity="center_horizontal">
+			<Button
+				android:id="@+id/btn"
+				android:layout_height="wrap_content"
+				android:text="About Andela"
+				android:layout_width="250dp"
+				android:layout_marginTop="20dp"
+				android:layout_marginBottom="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_marginLeft="20dp"
+				android:background="#FF1648"
+				android:textColor="#FFF"
+				android:textSize="40sp"
+				android:textStyle="bold"
+			/>
+		</TableRow>
+		<TableRow
+			android:gravity="center_horizontal">
+			<Button
+				android:id="@+id/btn1"
+				android:layout_height="wrap_content"
+				android:text="My Profile"
+				android:onClick="goToActivity2"
+				android:layout_width="250dp"
+				android:layout_marginTop="20dp"
+				android:layout_marginBottom="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_marginLeft="20dp"
+				android:background="#1640BC"
+				android:textColor="#FFF"
+				android:textSize="40sp"
+				android:textStyle="bold"
+			/>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
